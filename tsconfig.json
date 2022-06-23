@@ -16,10 +16,10 @@
 		"forceConsistentCasingInFileNames": true,
 		"baseUrl": ".",
 		"paths": {
-			"@controllers/*": ["./src/controllers/*"],
-			"@models/*": ["./src/models/*"],
-			"@views/*": ["./src/views/*"],
-			"@config/*": ["./src/config/*"]
+      "@modules/*": ["src/modules/*"],
+      "@routes/*": ["./src/routes/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@helpers/*": ["./src/helpers/*"],
 		}
 	},
 	"include": ["src/**/*"]
